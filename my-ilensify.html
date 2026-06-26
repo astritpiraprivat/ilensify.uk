@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My iLensify — Trade Portal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="portal-page">
+  <a class="portal-brand brand brand-light" href="index.html"><span class="brand-mark"></span><span class="brand-word"><span class="brand-i">i</span><span class="brand-lensify">LENSIFY</span></span></a>
+  <div class="portal-layout">
+    <section class="portal-story">
+      <div>
+        <p class="eyebrow light">Trade partner portal</p>
+        <h1>Your optical business,<br><em>all in focus.</em></h1>
+        <p>Access trade pricing, request quotes, manage orders and keep account details up to date.</p>
+      </div>
+      <div class="portal-features"><span>01 — Order history</span><span>02 — Quote requests</span><span>03 — Account details</span></div>
+    </section>
+    <section class="auth-panel">
+      <a class="back-link" href="index.html">← Back to website</a>
+      <div class="auth-box">
+        <div class="auth-tabs"><button class="auth-tab active" data-auth="login">Sign in</button><button class="auth-tab" data-auth="signup">Create account</button></div>
+        <div class="auth-copy"><h2 id="auth-title">Welcome back.</h2><p id="auth-subtitle">Sign in to access your iLensify trade account.</p></div>
+        <div class="social-login">
+          <button><b>G</b> Continue with Google</button>
+          <button><b>f</b> Continue with Facebook</button>
+          <button><b>●</b> Continue with Apple</button>
+        </div>
+        <div class="divider"><span>or use your email</span></div>
+        <form class="auth-form" data-demo-form>
+          <label><span>Business email</span><input type="email" placeholder="you@company.com" required></label>
+          <label class="signup-only"><span>Company name</span><input type="text" placeholder="Your optical business"></label>
+          <label><span>Password</span><div class="password-field"><input type="password" placeholder="Enter your password" required><button class="show-password" type="button">Show</button></div></label>
+          <div class="password-rules signup-only"><span>8+ characters</span><span>1 capital letter</span><span>1 number</span></div>
+          <div class="auth-options login-only"><label class="check"><input type="checkbox"> Remember me</label><a href="#">Forgot password?</a></div>
+          <button class="button auth-submit" type="submit">Sign in <span>↗</span></button>
+          <p class="form-success" role="status">Portal demo complete. Connect this form to your preferred authentication service to enable real accounts.</p>
+        </form>
+        <p class="portal-note">This prototype presents the intended portal experience. Authentication, social sign-in, orders and quotes require backend integration.</p>
+      </div>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

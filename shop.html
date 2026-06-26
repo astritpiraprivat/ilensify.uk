@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shop the Range — iLensify</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="inner-page">
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark"></span><span class="brand-word"><span class="brand-i">i</span><span class="brand-lensify">LENSIFY</span></span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
+    <nav id="main-nav" class="main-nav"><a href="lenses.html">Lenses</a><a href="coatings.html">Coatings</a><a href="frames.html">Frames</a><a href="about.html">About iLensify</a><a href="index.html#contact">Contact</a></nav>
+    <div class="header-actions"><a class="text-link" href="my-ilensify.html">My iLensify</a><a class="button button-small" href="index.html#distributor">Trade enquiry <span>↗</span></a></div>
+  </header>
+  <main>
+    <section class="shop-hero">
+      <p class="eyebrow">Shop the collection</p>
+      <h1>Browse by product family.</h1>
+      <p>Select lenses, coatings or frames. Each product family opens into a clear trade-focused range.</p>
+    </section>
+
+    <section class="shop-categories section">
+      <a class="shop-choice" href="lenses.html">
+        <img src="assets/lenses.png" alt="Precision optical lens">
+        <div><span>01</span><h2>Lenses</h2><p>Finished lenses and RX lenses.</p></div>
+      </a>
+      <a class="shop-choice" href="coatings.html">
+        <img src="assets/coatings.png" alt="Premium optical coatings">
+        <div><span>02</span><h2>Coatings</h2><p>Tint & mirror and antireflex.</p></div>
+      </a>
+      <a class="shop-choice" href="frames.html">
+        <img src="assets/frame-unisex.png" alt="Premium frame collections">
+        <div><span>03</span><h2>Frames</h2><p>Women’s, men’s and unisex collections.</p></div>
+      </a>
+    </section>
+
+    <section class="shop-layout">
+      <aside class="shop-sidebar">
+        <p class="filter-label">Quick filter</p>
+        <button class="filter active" data-filter="all">All products <span>12</span></button>
+        <button class="filter" data-filter="lenses">Lenses <span>7</span></button>
+        <button class="filter" data-filter="coatings">Coatings <span>2</span></button>
+        <button class="filter" data-filter="frames">Frames <span>3</span></button>
+        <div class="trade-card"><p>Trade pricing</p><h3>Already a partner?</h3><a href="my-ilensify.html">Sign in to My iLensify <span>→</span></a></div>
+      </aside>
+      <div class="shop-content">
+        <div class="shop-toolbar"><p><span id="result-count">12</span> products</p><select aria-label="Sort products"><option>Featured</option><option>A–Z</option><option>Category</option></select></div>
+        <div class="product-grid">
+          <article class="product-card" data-category="lenses"><div class="product-art art-clear"><div class="glass-disc"></div><span>Finished</span></div><div><p>Finished lenses</p><h3>Progressive Lenses</h3><span>Seamless near-to-distance vision</span></div><a href="my-ilensify.html">Request details ↗</a></article>
+          <article class="product-card" data-category="lenses"><div class="product-art art-smoke"><div class="glass-disc twin"></div><span>Finished</span></div><div><p>Finished lenses</p><h3>Bifocal Lenses</h3><span>Dependable dual-focus performance</span></div><a href="my-ilensify.html">Request details ↗</a></article>
+          <article class="product-card" data-category="lenses"><div class="product-art art-gold"><div class="glass-disc flat"></div><span>Finished</span></div><div><p>Finished lenses</p><h3>Aspheric Lenses</h3><span>Slimmer profiles, refined optics</span></div><a href="my-ilensify.html">Request details ↗</a></article>
+          <article class="product-card" data-category="lenses"><div class="product-art art-olive"><div class="glass-disc glow"></div><span>Finished</span></div><div><p>Finished lenses</p><h3>Computer Lenses</h3><span>Comfort across working distances</span></div><a href="my-ilensify.html">Request details ↗</a></article>
+          <article class="product-card" data-category="lenses"><div class="product-art art-blue"><div class="glass-disc small"></div><span>Finished</span></div><div><p>Finished lenses</p><h3>Children’s Lenses</h3><span>Durable, comfortable everyday optics</span></div><a href="my-ilensify.html">Request details ↗</a></article>
+          <article class="product-card" data-category="lenses"><div class="product-art art-sun"><div class="glass-disc tint"></div><span>Finished</span></div><div><p>Finished lenses</p><h3>Photochromic Lenses</h3><span>Adaptive comfort indoors and out</span></div><a href="my-ilensify.html">Request details ↗</a></article>
+          <article class="product-card" data-category="lenses"><div class="product-art art-rx"><div class="glass-disc rings"></div><span>RX</span></div><div><p>RX lenses</p><h3>Free-form RX Lenses</h3><span>Progressive, bifocal and monofocal</span></div><a href="my-ilensify.html">Request details ↗</a></article>
+          <article class="product-card" data-category="coatings"><div class="product-art photo-art"><img src="assets/coatings.png" alt=""></div><div><p>Tint & mirror</p><h3>Tint & Mirror</h3><span>Technical finishes with visual impact</span></div><a href="my-ilensify.html">Request details ↗</a></article>
+          <article class="product-card" data-category="coatings"><div class="product-art art-mirror"><div class="glass-disc mirror"></div><span>Antireflex</span></div><div><p>Antireflex</p><h3>Antireflex Coating</h3><span>Cleaner vision, reduced reflections</span></div><a href="my-ilensify.html">Request details ↗</a></article>
+          <article class="product-card" data-category="frames"><div class="product-art photo-art"><img src="assets/frame-women.png" alt=""></div><div><p>Frames</p><h3>Women’s Collection</h3><span>Elegant proportions and refined detail</span></div><a href="my-ilensify.html">Request details ↗</a></article>
+          <article class="product-card" data-category="frames"><div class="product-art photo-art"><img src="assets/frame-men.png" alt=""></div><div><p>Frames</p><h3>Men’s Collection</h3><span>Confident lines and professional polish</span></div><a href="my-ilensify.html">Request details ↗</a></article>
+          <article class="product-card" data-category="frames"><div class="product-art photo-art"><img src="assets/frame-unisex.png" alt=""></div><div><p>Frames</p><h3>Unisex Collection</h3><span>Balanced frames for contemporary optical retail</span></div><a href="my-ilensify.html">Request details ↗</a></article>
+        </div>
+      </div>
+    </section>
+    <section class="shop-cta"><p class="eyebrow light">Need trade access?</p><h2>Open My iLensify to request pricing and quotes.</h2><a class="button button-light" href="my-ilensify.html">Go to My iLensify <span>↗</span></a></section>
+  </main>
+  <footer class="site-footer compact-footer"><div class="footer-bottom"><span>© 2026 iLensify. All rights reserved.</span><div><a href="index.html">Home</a><a href="index.html#contact">Contact</a><a href="my-ilensify.html">My iLensify</a></div></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
